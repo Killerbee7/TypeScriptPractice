@@ -20,22 +20,22 @@
 // const combineAges = combine('30', '25', 'as-number');
 // console.log(combineAges)
 
-type StringOrNum = string | number;
-type objWithName = { name: string; uid: StringOrNum };
+// type StringOrNum = string | number;
+// type objWithName = { name: string; uid: StringOrNum };
 // const logDetails = (uid: string | number, item, string) => {
-//  console.log(`${item} has a uid of ${uid}`);
-// };
-// const logDetailsNew = (uid: StringOrNum, item, string) => {
-//  console.log(`${item} has a uid of ${uid}`);
-// };
-// const greet = (user: { name: string; uid: string | number }) => {
-//  return console.log(`${user.name} says hello`);
-// };
+// //  console.log(`${item} has a uid of ${uid}`);
+// // };
+// // const logDetailsNew = (uid: StringOrNum, item, string) => {
+// //  console.log(`${item} has a uid of ${uid}`);
+// // };
+// // const greet = (user: { name: string; uid: string | number }) => {
+// //  return console.log(`${user.name} says hello`);
+// // };
 // const greetNew = (user: objWithName) => {
 //  return (`${user.name} says hello`);
 // };
-// // console.log(logDetails(1, 'test', 'James'));
-// // console.log(logDetailsNew(1, 'testNew', 'Tom'));
+// console.log(logDetails(1, 'test', 'James'));
+// console.log(logDetailsNew(1, 'testNew', 'Tom'));
 // console.log(greetNew({name:'Jamie', uid:5}));
 
 // function add(n1: number, n2: number) {
@@ -57,14 +57,14 @@ type objWithName = { name: string; uid: StringOrNum };
 //         console.log(response);
 //         return true;});
 
-let userInput: unknown;
-let userName: string;
-userInput = 5;
-userInput = "Max";
-if (typeof userInput === "string") {
-  userName = userInput;
-}
-function generateError(message: string, code: number): never {
-  throw { message: message, errorCode: code };
-}
-generateError("An error occurred!", 500);
+// let userInput: unknown;
+// let userName: string;
+// userInput = 5;
+// userInput = "Max";
+// if (typeof userInput === "string") {
+//   userName = userInput;
+// }
+// function generateError(message: string, code: number): never {
+//   throw { message: message, errorCode: code };
+// }
+// generateError("An error occurred!", 800);
